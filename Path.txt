@@ -1,0 +1,7 @@
+cd g:
+cd My\ Drive/
+cd Projectos\ de\ Software/
+cd Curso_Git
+cd PROYECTOS/
+cd Curso_GIT/
+cd PC_WINDOWS/

@@ -1,0 +1,32 @@
+
+renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
+$ history
+ 
+git init
+git status
+git commit -m "Primer Comit para la carpeta Main de la PC Windows"
+git log
+git show
+git config --global user.name "Renato DarkGoshLap"
+git config --global user.email "darkgoshmx@gmail.com"
+git add .
+git add archivo.txt
+git commit -m "Actualiacion de carpeta de Git y baja de archivos duplicados"
+git commit -am "Agregue cambios que hice por error en master a cabecera"
+git checkout cabecera
+git checkout master
+git merge cabecera
+git switch -
+git checkout 4e1de1a7f35a15e0e7849265a87d783b97f67c7e
+git remote add origin https://github.com/darkgosh/Curso_GIT.git
+git remote
+git remote -v
+git push origin master
+git pull origin master --allow-unrelated-histories
+git pull origin master
+
+clear
+history
+
+renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
+
