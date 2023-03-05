@@ -11,3 +11,5 @@ voy a agregar cambios en texto y hacer que se reflejen
 el repositorio remoto
 EUREKA!!! FUNCIONA ahora quiero que se actualice el repositorio local
 Ultima actualizacion del repositorio local y remoto
+
+agrege nuevo usuario desde la mac
