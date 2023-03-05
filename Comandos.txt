@@ -49,3 +49,10 @@ Crea un archivo config…
 Con Vim vim config
 Con VSCode code config
 Pega la siguiente configuración en el archivo
+
+#Agregar los comandos para crear TAGs
+git tag
+git log --all --graph --decorate --oneline
+git tag -a prueba -m "prueba de creacion de tags" 77fbbd8
+git push origin --tags
+git tag -d Nombre_tag
