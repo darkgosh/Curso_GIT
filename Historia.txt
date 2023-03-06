@@ -13,3 +13,5 @@ EUREKA!!! FUNCIONA ahora quiero que se actualice el repositorio local
 Ultima actualizacion del repositorio local y remoto
 
 agrege nuevo usuario desde la mac
+Se integra rvidana TI on Mac M1 al proyeto por medio de clonacion
+por medio de repositorio remoto https://github.com/darkgosh/Curso_GIT.git
