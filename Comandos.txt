@@ -9,6 +9,7 @@ git log
 git show
 git config --global user.name "Renato DarkGoshLap"
 git config --global user.email "darkgoshmx@gmail.com"
+git config -l
 git add .
 git add archivo.txt
 git commit -m "Actualiacion de carpeta de Git y baja de archivos duplicados"
@@ -53,6 +54,16 @@ Pega la siguiente configuración en el archivo
 #Agregar los comandos para crear TAGs
 git tag
 git log --all --graph --decorate --oneline
+alias Resumen="git log --all --graph --decorate --oneline"
 git tag -a prueba -m "prueba de creacion de tags" 77fbbd8
 git push origin --tags
 git tag -d Nombre_tag
+git push origin :refs/tags/v0.2
+
+
+#Manejo de Branches
+git show-branch
+
+gitk
+git checkout cabecera
+git push origin cabecera 
