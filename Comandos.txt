@@ -67,3 +67,6 @@ git show-branch
 gitk
 git checkout cabecera
 git push origin cabecera 
+
+
+scape + shift +zz
