@@ -2,7 +2,16 @@
 renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
 $ history
  
+#Crear un Repositorio local 
 git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:darkgosh/Codigo_pyton.git
+git push -u origin main
+
+
+
 git status
 git commit -m "Primer Comit para la carpeta Main de la PC Windows"
 git log
@@ -10,6 +19,13 @@ git show
 git config --global user.name "Renato DarkGoshLap"
 git config --global user.email "darkgoshmx@gmail.com"
 git config -l
+
+#Crear Repositorio local por medio del repositorio remoto.
+git remote add origin git@github.com:darkgosh/MasteryOfPineScript.git
+git branch -M main
+git push -u origin main
+
+
 git add .
 git add archivo.txt
 git commit -m "Actualiacion de carpeta de Git y baja de archivos duplicados"
