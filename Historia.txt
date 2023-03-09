@@ -1,12 +1,11 @@
-Esta es una historio de Reno
+Esta es una historia de Reno
 
 Reno tiene 44 años, naci en mexico df pero vivo en GDL  
 
-mi estatura es  1.70
 Soy Project Manager de ti 
 
 Hoy hablaremos de su vida y obra maestra
-Prueba adicional para Hithub en main 
+Prueba adicional para Github en main 
 voy a agregar cambios en texto y hacer que se reflejen 
 el repositorio remoto
 EUREKA!!! FUNCIONA ahora quiero que se actualice el repositorio local
