@@ -108,8 +108,12 @@ git config pull.ff only       # fast-forward only
 ##GIT Stash El stashed nos sirve para guardar cambios para después, 
 ##Es una lista de estados que nos guarda algunos cambios que hicimos en Staging 
 ##para poder cambiar de rama sin perder el trabajo que todavía no guardamos en un commit
-
-
+git branch
+git stash 
+git stash list --> muestra los stash guardados
+git stash pop --> aplica el stash guardado desde la memoria a la rama en la que estas.
+git stash branch nombreRama --> crea una nueva rama y pega el stash ahi.
+git stash drop --> borra el stash de la memoria.
 
 git add -A # Para hacer uso de amend los archivos deben de estar en staging
 git commit --amend # Remendar último commit
