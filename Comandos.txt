@@ -64,6 +64,7 @@ git commit -am "Agregue cambios que hice por error en master a cabecera"
 git checkout cabecera
 git checkout master
 git merge cabecera
+
 git switch -
 git checkout 4e1de1a7f35a15e0e7849265a87d783b97f67c7e
 git remote add origin https://github.com/darkgosh/Curso_GIT.git
@@ -72,6 +73,8 @@ git remote -v
 git push origin master
 git pull origin master --allow-unrelated-histories
 git pull origin master
+
+git pull origin main --allow-unrelated-histories  ## se usa en los casos que un merge marca error por quere subir historias no relacionadas.
 
 clear
 history
@@ -97,18 +100,15 @@ git push origin cabecera
 
 scape + shift +zz
 
-hint: You have divergent branches and need to specify how to reconcile them.
-hint: You can do so by running one of the following commands sometime before
-hint: your next pull:
-hint: 
-hint:   git config pull.rebase false  # merge
-hint:   git config pull.rebase true   # rebase
-hint:   git config pull.ff only       # fast-forward only
-hint: 
-hint: You can replace "git config" with "git config --global" to set a default
-hint: preference for all repositories. You can also pass --rebase, --no-rebase,
-hint: or --ff-only on the command line to override the configured default per
-hint: invocation.
+
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+git config pull.ff only       # fast-forward only
+
+##GIT Stash El stashed nos sirve para guardar cambios para después, 
+##Es una lista de estados que nos guarda algunos cambios que hicimos en Staging 
+##para poder cambiar de rama sin perder el trabajo que todavía no guardamos en un commit
+
 
 
 git add -A # Para hacer uso de amend los archivos deben de estar en staging
