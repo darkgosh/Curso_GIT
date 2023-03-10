@@ -1,8 +1,33 @@
-
-renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
-$ history
  
-#Crear un Repositorio local 
+#Establecer una Conexion Segura
+renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
+
+ ##Generar una nueva llave SSH: (Cualquier sistema operativo)
+ ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+ ##Comprobar proceso y agregarlo (Windows)
+ eval $(ssh-agent - s)
+ ssh-add ~/.ssh/id_rsa
+ 
+ Comprobar proceso y agregarlo (Mac)
+ eval "$(ssh-agent -s)"
+ ##¿Usas macOS Sierra 10.12.2 o superior?
+ ##Haz lo siguiente:
+ cd ~/.ssh
+ ##Crea un archivo config…
+ Con Vim vim config
+ Con VSCode code config
+ ##Pega la siguiente configuración en el archivo:
+ Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+ 
+ ##Agrega tu llave
+ ssh-add -K ~/.ssh/id_rsa
+
+
+#Crear un Repositorio local de Zero
 git init
 git add README.md
 git commit -m "first commit"
@@ -10,7 +35,8 @@ git branch -M main
 git remote add origin git@github.com:darkgosh/Codigo_pyton.git
 git push -u origin main
 
-
+#Clonar un repositorio compartido "Este se usa cuando el repositorio ya Existe en GITHUB"
+git clon git@github.com:darkgosh/Codigo_pyton.git
 
 git status
 git commit -m "Primer Comit para la carpeta Main de la PC Windows"
@@ -19,9 +45,10 @@ git show
 git config --global user.name "Renato DarkGoshLap"
 git config --global user.email "darkgoshmx@gmail.com"
 git config -l
+git commit -m "Primer Comit para la carpeta Main de la PC Windows"
 
-#Crear Repositorio local por medio del repositorio remoto.
-git remote add origin git@github.com:darkgosh/MasteryOfPineScript.git
+#Crear Repositorio local por medio del repositorio remoto. "Este lo usamos cuando el repositorio ya existe en el local y no hay nada en el remoto."
+git remote add origin git@github.com:darkgosh/Codigo_pyton.git
 git branch -M main
 git push -u origin main
 
@@ -45,27 +72,6 @@ git pull origin master
 clear
 history
 
-renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
-
-Generar una nueva llave SSH: (Cualquier sistema operativo)
-
-ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
-
-Comprobar proceso y agregarlo (Windows)
-
-eval $(ssh-agent - s)
-ssh-add ~/.ssh/id_rsa
-Comprobar proceso y agregarlo (Mac)
-
-eval "$(ssh-agent -s)"
-¿Usas macOS Sierra 10.12.2 o superior?
-Haz lo siguiente:
-
-cd ~/.ssh
-Crea un archivo config…
-Con Vim vim config
-Con VSCode code config
-Pega la siguiente configuración en el archivo
 
 #Agregar los comandos para crear TAGs
 git tag

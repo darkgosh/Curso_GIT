@@ -14,3 +14,5 @@ cd PROYECTOS
 cd Curso_GIT
 cd Branch_MAC_M1_UN
 cd Curso_GIT
+ls 
+
