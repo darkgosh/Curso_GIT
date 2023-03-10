@@ -26,6 +26,10 @@ renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git
  ##Agrega tu llave
  ssh-add -K ~/.ssh/id_rsa
 
+##Cuando usabas HTTPS para la conexion con origin y acabas de habilitar tu llave publica en el repo remoto
+git status
+git remote -v
+git remote set-url origin git@github.com:darkgosh/Curso_GIT.git
 
 #Crear un Repositorio local de Zero
 git init
