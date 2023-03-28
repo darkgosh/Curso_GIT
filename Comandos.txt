@@ -3,7 +3,7 @@
 renat@Darkgosh-Lap MINGW64 /g/My Drive/Projectos de Software/PROYECTOS/Curso_git/PC_WINDOWS (main)
 
  ##Generar una nueva llave SSH: (Cualquier sistema operativo)
- ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+ ssh-keygen -t rsa -b 4096 -C "darkgoshmx@gmail.com"
 
  ##Comprobar proceso y agregarlo (Windows)
  eval $(ssh-agent - s)
@@ -48,6 +48,7 @@ git log
 git show
 git config --global user.name "Renato DarkGoshLap"
 git config --global user.email "darkgoshmx@gmail.com"
+git config --list # lista las configuraciones.
 git config -l
 git commit -m "Primer Comit para la carpeta Main de la PC Windows"
 
