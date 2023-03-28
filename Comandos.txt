@@ -61,9 +61,20 @@ git add .
 git add archivo.txt
 git commit -m "Actualiacion de carpeta de Git y baja de archivos duplicados"
 git commit -am "Agregue cambios que hice por error en master a cabecera"
+
+#Braches 
 git checkout cabecera
 git checkout master
 git merge cabecera
+git show-branch
+git show-branch --all
+git push origun cabecera ## Envia la rama al repo remoto 
+git branch footer
+git branch header
+git push origin footer
+git push origin header
+git merge footer # se asume que estas en main para hacer el merge
+git merge header # se asume que estas en main para hacer el merge
 
 git switch -
 git checkout 4e1de1a7f35a15e0e7849265a87d783b97f67c7e

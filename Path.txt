@@ -4,6 +4,7 @@ cd Projectos\ de\ Software/
 cd PROYECTOS/
 cd Curso_GIT/
 cd PC_WINDOWS/
+ls
 
 #Path para MAC M1
 
