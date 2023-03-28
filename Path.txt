@@ -4,11 +4,8 @@ cd Projectos\ de\ Software/
 cd PROYECTOS/
 cd Curso_GIT/
 cd PC_WINDOWS/
-<<<<<<< HEAD
 ls
-=======
-ls 
->>>>>>> 005b56881d1ea785d7717e32e5f39d6110d40480
+
 
 #Path para MAC M1
 
