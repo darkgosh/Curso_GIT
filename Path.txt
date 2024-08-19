@@ -1,20 +1,55 @@
-cd g:
-cd My\ Drive/
-cd Projectos\ de\ Software/
-cd PROYECTOS/
-cd Curso_GIT/
-cd PC_WINDOWS/
+#Path Curso Python
+cd G:/My\ Drive/Software_Projects/PROYECTOS/Curso_Python/
+ls
+git status
+
+
+#Path Curso Flask
+cd G:/My\ Drive/Software_Projects/PROYECTOS/Curso_Flask/
+ls
+git status
+
+
+#Path Proyecto_BOT_Trading
+cd G:/My\ Drive/Software_Projects/PROYECTOS/Proyecto_BOT_Trading
+ls
+git status
+
+
+#Path Obsidian
+cd g:/My\ Drive/Obsidian
+ls
+git status
+
+
+#Path GIT
+cd G:/My\ Drive/Software_Projects/PROYECTOS/Curso_GIT/
+ls
+git status
+
+
+#Path MasteryOfPineScript
+cd G:/My\ Drive/Software_Projects/PROYECTOS/Curso_MasteryOfPineScript/
+ls
+git status
+
+
+#path Galo_Solutions Home-Office
+cd i:/My\ Drive/Galo_Solutions
+ls
+git status
+
+
+#Path Jupyter
+cd c:/users/renat/OneDrive/Jupyter/
+ls
+git status
+
+
+#Shortcut consolas
+cd g:'.\My Drive\Software_Projects\PROYECTOS\'
 ls
 
 
-#Path para MAC M1
-
-cd darkgoshmx@gmail.com\ -\ Google\ Drive
-cd Mi\ unidad
-cd Projectos\ de\ Software
-cd PROYECTOS
-cd Curso_GIT
-cd Branch_MAC_M1_UN
-cd Curso_GIT
-ls 
-
+#Obsidan snippets
+G:\My Drive\Obsidian\.obsidian\snippets
